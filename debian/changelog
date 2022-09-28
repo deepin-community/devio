@@ -1,0 +1,51 @@
+devio (1.2-1.2) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Upload to unstable.
+  * This upload will close the previous quoted bugs. (Closes: #453550, #817427)
+
+ -- Joao Eriberto Mota Filho <eriberto@debian.org>  Wed, 23 Mar 2016 08:54:00 -0300
+
+devio (1.2-1.1) experimental; urgency=medium
+
+  * Non-maintainer upload.
+  * Migrated DH level to 9 to avoid a FTBFS. This action will close a bug
+    when uploaded to unstable. (#817427)
+  * debian/control:
+      - Added the Homepage field.
+      - Added the ${misc:Depends} field.
+      - Bumped Standards-Version to 3.9.7.
+  * debian/dirs: disabled the unused man8 dir.
+  * debian/watch:
+      - Bumped to version 4.
+      - Fixed the deprecated SF redirector method. This action will close
+        a bug when uploaded to unstable. (#453550)
+
+ -- Joao Eriberto Mota Filho <eriberto@debian.org>  Thu, 10 Mar 2016 17:25:25 -0300
+
+devio (1.2-1) unstable; urgency=low
+
+  * Synced with upstream.
+  * Initial upload to Debian. Closes: #345490
+
+ -- Rod Whitby <rod@whitby.id.au>  Tue, 17 Jan 2006 14:06:26 +0930
+
+devio (1.1-2) unstable; urgency=low
+
+  * Moved devio binary from /usr/sbin to /usr/bin.
+  * Added udeb support.
+
+ -- Rod Whitby <rod@whitby.id.au>  Thu, 12 Jan 2006 22:06:26 +0930
+
+devio (1.1-1) unstable; urgency=low
+
+  * Updated to new upstream version.  Addition of 'xp' command by upstream.
+
+ -- Rod Whitby <rod@whitby.id.au>  Thu, 20 Oct 2005 22:18:59 +0930
+
+devio (1.0-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Rod Whitby <rod@whitby.id.au>  Tue, 18 Oct 2005 10:38:25 +0930
+
